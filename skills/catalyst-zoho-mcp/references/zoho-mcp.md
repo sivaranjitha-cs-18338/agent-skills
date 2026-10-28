@@ -7,13 +7,13 @@
 
 **Step 1 — Choose your Data Center (DC) URL:**
 
-The Catalyst global MCP endpoint changes by data center. Use the URL that matches your Zoho account's DC.
+The Catalyst global MCP endpoint changes by data center. Use the URL that matches your Zoho account's DC. **IN (India) is the default DC** — use it unless the user explicitly says their account is in another DC.
 
 | DC | Region | Global MCP URL (full — use as-is, do not append anything) |
 |------|------|------|
+| IN (default) | India | `https://catalyst.zohomcp.in/mcp/message` |
 | US | United States | `https://catalyst.zohomcp.com/mcp/message` |
 | EU | Europe | `https://catalyst.zohomcp.eu/mcp/message` |
-| IN | India | `https://catalyst.zohomcp.in/mcp/message` |
 | AU | Australia | `https://catalyst.zohomcp.com.au/mcp/message` |
 | CA | Canada | `https://catalyst.zohomcp.ca/mcp/message` |
 | SA | Saudi Arabia | `https://catalyst.zohomcp.sa/mcp/message` |

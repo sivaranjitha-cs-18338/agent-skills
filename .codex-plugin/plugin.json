@@ -1,0 +1,36 @@
+{
+  "name": "catalyst-by-zoho",
+  "version": "0.0.1",
+  "description": "AI agent skill for Catalyst by Zoho — full-stack serverless cloud platform. Covers all services, SDKs, CLI, architecture patterns, pricing, migration guides, and Zoho MCP tool-based resource management.",
+  "author": {
+    "name": "Catalyst by Zoho",
+    "email": "support@zohocatalyst.com",
+    "url": "https://docs.catalyst.zoho.com/en/"
+  },
+  "homepage": "https://github.com/catalystbyzoho/agent-skills",
+  "repository": "https://github.com/catalystbyzoho/agent-skills",
+  "license": "Apache-2.0",
+  "keywords": ["catalyst", "zoho", "mcp", "serverless", "cloud", "datastore", "zcql", "appsail", "stratus", "functions"],
+  "skills": "./skills/",
+  "mcpServers": "./.codex-plugin/mcp.json",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Catalyst by Zoho",
+    "shortDescription": "Use Catalyst by Zoho capabilities in Codex.",
+    "longDescription": "Catalyst by Zoho plugin extends Codex with skills and MCP-backed workflows for building, managing, and operating Catalyst projects.",
+    "developerName": "Catalyst by Zoho",
+    "category": "Development Tools",
+    "capabilities": ["MCP", "Hooks", "Read", "Write"],
+    "websiteURL": "https://catalyst.zoho.com/",
+    "privacyPolicyURL": "https://www.zoho.com/privacy.html",
+    "termsOfServiceURL": "https://www.zoho.com/terms.html",
+    "brandColor": "#226DB4",
+    "composerIcon": "./assets/catalyst_logo.svg",
+    "logo": "./assets/catalyst_logo.svg",
+    "defaultPrompt": [
+      "Help me work with Catalyst by Zoho.",
+      "Show me available Catalyst by Zoho capabilities.",
+      "Guide my Catalyst project setup."
+    ]
+  }
+}

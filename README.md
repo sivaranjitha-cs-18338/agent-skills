@@ -84,6 +84,14 @@ The CLI automatically detects which AI tools you have configured and installs th
 gemini extensions install https://github.com/catalystbyzoho/agent-skills
 ```
 
+### Codex (Plugin)
+
+```bash
+codex plugin marketplace add catalystbyzoho/agent-skills
+```
+
+Then open `/plugins` in Codex and install **Catalyst by Zoho**. The manifest is `.codex-plugin/plugin.json`; MCP servers (OAuth; `IN` is enabled by default) are defined in `.codex-plugin/mcp.json`. A SessionStart hook checks prerequisites; select your data center with the `catalyst-switch-dc` skill (`scripts/switch-dc.js`).
+
 ### Option 4: Cursor
 
 **Via symlink (recommended):**

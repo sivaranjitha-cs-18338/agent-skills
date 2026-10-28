@@ -2,7 +2,7 @@
 name: catalyst-by-zoho
 description: "Expert coding assistant for Catalyst by Zoho — Zoho's full-stack serverless cloud platform. Use for any question about Catalyst services, CLI, SDKs, architecture, pricing, or Zoho MCP tool-based infrastructure management."
 metadata:
-  version: "2.2.0"
+  version: "2.3.0"
 ---
 
 # Catalyst by Zoho — Skill Index
@@ -125,6 +125,7 @@ New to Catalyst? Here's what each service does in one line:
 | SmartBrowz — headless browser, Puppeteer, Playwright, Selenium, Browser Logic, PDF generation, screenshot, Browser Grid, Dataverse | `catalyst-smartbrowz` |
 | Job Scheduling — job pools, immediate/background jobs, crons (Periodic/OneTime/Calendar/CronExpression), `submitJob`, `createCron`, retries | `catalyst-job-scheduling` |
 | Zoho MCP — MCP setup, `CatalystbyZoho_*` tools, infra-as-conversation | `catalyst-zoho-mcp` |
+| Switch Catalyst MCP data center/region in Codex — `switch-dc.js`, regional server, "MCP REGIONAL BLOCKER" | `catalyst-switch-dc` |
 | Skill gave wrong or outdated guidance — user reporting an error | load `references/skill-feedback.md` |
 
 ---
